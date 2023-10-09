@@ -16,6 +16,7 @@ Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribien
 $ ls
 ```
 
+
 2. Deberías ver: 
 ```console
 README.md lorem solutions.ipynb
