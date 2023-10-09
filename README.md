@@ -5,6 +5,8 @@
 Vamos a practicar con `bash`, un lenguaje de programación que se ejecuta en la línea de comandos!
 
 
+
+
 ## Entregable
 
 Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribiendo en él los títulos de los ejercicios en una celda, y en otra el comando que has utilizado para solucionar los ejercicios. 
@@ -14,6 +16,10 @@ Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribien
 1. Ubícate en la carpeta en la que ejecutando en el terminal. Al ejecutar `ls` 
 ```console
 $ ls
+
+
+
+s
 ```
 
 2. Deberías ver: 
