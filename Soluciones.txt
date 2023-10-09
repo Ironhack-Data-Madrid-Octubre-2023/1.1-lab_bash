@@ -1,2 +1,37 @@
+SOLUCIONES
+
 1) echo hello
 
+2) mkdir new_dir
+
+3) rm new_dir
+
+4) cd C:\Users\alici\ironhack\1.1-lab_bash\lorem
+
+5)
+PS C:\Users\alici\ironhack\1.1-lab_bash> cd lorem_copy
+PS C:\Users\alici\ironhack\1.1-lab_bash\lorem_copy> cp C:\Users\alici\ironhack\1.1-lab_bash\lorem\sed.txt
+PS C:\Users\alici\ironhack\1.1-lab_bash\lorem_copy>
+
+6)
+PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> cat sed.txt
+
+7)
+PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> cat at.txt,lorem.txt
+
+8) PS C:\Users\alici\ironhack\1.1-lab_bash\lorem_copy> Get-Content -Path .\sed.txt -TotalCount 3
+
+9) PS C:\Users\alici\ironhack\1.1-lab_bash\lorem_copy> Add-Content -Path .\sed.txt -Exclude help* -Value 'Homo homini lupus'
+
+10) PS C:\Users\alici\ironhack\1.1-lab_bash> whoami
+desktop-ocfhrfu\alici
+
+11) PS C:\Users\alici\ironhack\1.1-lab_bash> dir
+
+12) PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> Get-ChildItem  -Filter *.txt
+
+13) PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> Get-Content sed.txt  | Measure-Object -Line
+
+14)PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> (Get-ChildItem -Recurse -File -Filter "lorem*").Count
+
+15) PS C:\Users\alici\ironhack\1.1-lab_bash\lorem> (Get-Content -Path ".\at.txt" | Select-String -Pattern "et").Count
