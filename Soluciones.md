@@ -78,7 +78,3 @@ Y veremos por consola el siguiente output.
 README.md lorem solutions.ipynb
 ```
 
-
-
-
-
