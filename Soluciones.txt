@@ -34,3 +34,13 @@ wc sed.txt
 14) find . -type f -name "lorem*" | wc -l
 
 15) grep -o 'et' lorem/at.txt | wc -l
+
+
+Ficheros bash
+touch list_files.sh
+echo "ls" >> list_files.sh
+bash list_files.sh
+Ls
+Git add .
+Git commit -m "Ficheros bash"
+Git push
