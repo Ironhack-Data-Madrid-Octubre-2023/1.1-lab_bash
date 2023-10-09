@@ -1,17 +1,121 @@
+1). Imprime en consola Hello World.
+
 (clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  echo Hello World
-Hello World
+
+
+2). Crea un directorio nuevo llamado new_dir.
+
+
 (clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  mkdir new_dir
-(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
-README.md                  lorem
-Respuestas_1.1Bash_LAB.txt new_dir
-(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  rm
-new_dir
-rm: new_dir: is a directory
-(clase)  ✘ mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
-README.md                  lorem
-Respuestas_1.1Bash_LAB.txt new_dir
+
+
+3). limina ese directorio.
+
 (clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  rm
 -r new_dir
-(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
-README.md                  Respuestas_1.1Bash_LAB.txt lorem
-(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main 
+
+
+4). Copia el archivo sed.txt dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main (clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  mkdir lorem-copy
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main  cp sed.txt /Users/mbp/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy
+
+
+5). Muestra el contenido del archivo sed.txt dentro de la carpeta lorem.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main  cd ..
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main ±  cd lorem
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ±  cat sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?%
+
+
+6). Muestra el contenido de los archivos at.txt y lorem.txt dentro de la carpeta lorem.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ±  cat at.txt
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Et harum quidem rerum facilis est et expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
+ut et voluptates repudiandae sint et molestiae non recusandae.
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat%
+
+t lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.%
+
+
+7). Visualiza las primeras 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  head -3 sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+
+
+8). Añade Homo homini lupus. al final de archivo sed.txt dentro de la carpeta lorem-copy.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  echo 'Homo homini lupus' >> sed.txt
+
+
+9).Visualiza las últimas 3 líneas del archivo sed.txt dentro de la carpeta lorem-copy. Deberías ver ahora Homo homini lupus..
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  tail -3 sed.txt
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+
+10). Encuentra al usuario activo en el sistema.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  whoami
+mbp
+
+
+11). Encuentra dónde estás en tu sistema de ficheros.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  pwd
+/Users/mbp/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy
+
+
+12). Lista los archivos que terminan por .txt en la carpeta lorem.
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem-copy   main ±  cd ..
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main ±  cd lorem
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ±  ls
+ -txt
+sed.txt   lorem.txt at.txt
+
+
+13). Cuenta el número de líneas que tiene el archivo sed.txt dentro de la carpeta lorem.
+
+(clase)  ✘ mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ± 
+wc -l sed.txt
+       8 sed.txt
+
+
+14). Cuenta el número de archivos que empiezan por lorem que están en este directorio y en directorios internos.
+
+
+
+
+15). Cuenta el número de apariciones del string et en at.txt dentro de la carpeta lorem.
+
+(base)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ±  grep -o et at.txt | wc -l
+      10
