@@ -11,4 +11,6 @@ cat lorem.txt
 9) whoami
 10) ls
 11) ls *.txt
-12) 
+12) Get-Content -Path sed.txt | Measure-Object -line
+13) find . -type f -name 'lorem*' | wc -l
+14) grep -o 'et' at.txt | wc -l
