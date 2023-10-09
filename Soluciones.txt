@@ -26,7 +26,11 @@ Echo Homo homini lupus >> sed.txt
 
 11) pwd
 
-12)
+12) ls lorem/*.txt
 
 13) cd lorem
 wc sed.txt
+
+14) 
+
+15) grep -o 'et' lorem/at.txt | wc -l

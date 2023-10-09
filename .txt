@@ -1,0 +1,12 @@
+README.md
+Soluciones.txt
+lorem/
+lorem-copy/
+
+./lorem:
+at.txt
+lorem.txt
+sed.txt
+
+./lorem-copy:
+sed.txt
