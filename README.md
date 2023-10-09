@@ -1,16 +1,12 @@
 # Bash Lab
 
 ## Intro
-
 Vamos a practicar con `bash`, un lenguaje de programación que se ejecuta en la línea de comandos!
 
-
 ## Entregable
-
 Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribiendo en él los títulos de los ejercicios en una celda, y en otra el comando que has utilizado para solucionar los ejercicios. 
 
 ## Setup
-
 1. Ubícate en la carpeta en la que ejecutando en el terminal. Al ejecutar `ls` 
 ```console
 $ ls
@@ -55,7 +51,6 @@ README.md lorem solutions.ipynb
 * Cuenta el número de apariciones del string `et` en `at.txt` dentro de la carpeta lorem. 
 
 ## Ficheros bash
-
 Cualquier comando o comandos de bash se pueden almacenar en un fichero y ejecutar cuando queramos. 
 Obviamente puedes utilizar tu editor preferido. Creamos el fichero: 
 ```
