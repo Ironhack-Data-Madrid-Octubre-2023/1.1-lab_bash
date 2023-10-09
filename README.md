@@ -28,8 +28,6 @@ README.md lorem solutions.ipynb
 
 
 
-
-
 * Crea un directorio nuevo llamado `new_dir`.
 
 * Elimina ese directorio.
