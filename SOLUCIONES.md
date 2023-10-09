@@ -6,51 +6,39 @@ mkdir "new_dir"
 cd new_dir
 rm -r new_dir
 
+cp -r lorem lorem-copy
+cp lorem/sed.txt lorem-copy/sed-copy.txt
 
-* Copia el archivo `sed.txt` dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero. 
+head lorem/sed.txt
 
-* Muestra el contenido del archivo `sed.txt` dentro de la carpeta lorem. 
+head lorem/at.txt
 
-* Muestra el contenido de los archivos `at.txt` y `lorem.txt` dentro de la carpeta lorem. 
+head -n 3 lorem-copy/sed.txt
 
-* Visualiza las primeras 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy 
+echo "Homo homini lupus." lorem-copy/sed.txt
 
-* Añade `Homo homini lupus.` al final de archivo `sed.txt` dentro de la carpeta lorem-copy. 
+tail -n 3 lorem-copy/sed.txt
 
-* Visualiza las últimas 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy. Deberías ver ahora `Homo homini lupus.`. 
+whoami
 
-* Encuentra al usuario activo en el sistema.
+pwd
 
-* Encuentra dónde estás en tu sistema de ficheros.
+ls lorem/*.txt
 
-* Lista los archivos que terminan por `.txt` en la carpeta lorem.
+ls -als lorem/sed.txt
 
-* Cuenta el número de líneas que tiene el archivo `sed.txt` dentro de la carpeta lorem. 
+find . -type f -name "lorem*" | wc -l
 
-* Cuenta el número de **archivos** que empiezan por `lorem` que están en este directorio y en directorios internos.
-
-* Cuenta el número de apariciones del string `et` en `at.txt` dentro de la carpeta lorem. 
+grep -o 'et' lorem/at.txt | wc -l
 
 ## Ficheros bash
 
-Cualquier comando o comandos de bash se pueden almacenar en un fichero y ejecutar cuando queramos. 
-Obviamente puedes utilizar tu editor preferido. Creamos el fichero: 
-```
-$ touch list_files.sh
 ```
 
-E incluimos el contenido que queramos. En este caso listar ficheros:
-```bash
-#!/bin/bash
-ls
-```
+touch list_files.sh
 
-Ejecutamos el script:
-```
-$ bash list_files.sh
-```
-
-Y veremos por consola el siguiente output. 
-```console
-README.md lorem solutions.ipynb
-```
+#### abrir el archivo en visual studio code
+echo 'ls' >> list-files.sh 
+chmod +x list-files.sh #### cambiar permisos
+./list-files.sh #### ejecutar
+bash list_files.sh #### otra opcion para ejecutar
