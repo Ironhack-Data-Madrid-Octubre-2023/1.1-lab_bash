@@ -1,4 +1,4 @@
-# Bash Lab
+# Bash Lab.
 
 ## Intro
 
