@@ -11,6 +11,8 @@ Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribien
 
 ## Setup
 
+
+
 1. Ubícate en la carpeta en la que ejecutando en el terminal. Al ejecutar `ls` 
 ```console
 $ ls
