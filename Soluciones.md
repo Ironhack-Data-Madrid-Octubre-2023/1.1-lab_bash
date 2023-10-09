@@ -14,3 +14,7 @@ cat lorem.txt
 12) Get-Content -Path sed.txt | Measure-Object -line
 13) find . -type f -name 'lorem*' | wc -l
 14) grep -o 'et' at.txt | wc -l
+Ficheros bash
+touch list_files.sh
+echo 'ls' >> list_files.sh
+bash list_files.sh
