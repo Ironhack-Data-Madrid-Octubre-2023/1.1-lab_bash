@@ -27,3 +27,9 @@
     Get-ChildItem -Path . -Filter *.txt
 
 12.  (Get-Content -Path "C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem\lorem.txt" | Measure-Object -Line).Lines
+
+13. (Get-ChildItem -Path "C:\Users\ccior\IRONHACK" -File -Recurse | Where-Object { $_.Name -like 'lorem*' })
+.Count
+
+14. (Get-Content -Path "C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem\at.txt" | Select-String -Pattern "et").Co
+unt
