@@ -1,9 +1,57 @@
 Ejercicio BASH
 
+## Ejercicios
+
+* Imprime en consola `Hello World`.
 echo 'Hello World'
+
+* Crea un directorio nuevo llamado `new_dir`.
 mkdir 'new_dir'
+
+* Elimina ese directorio.
 rm -r new_dir
-cp sed.txt
+
+* Copia el archivo `sed.txt` dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero. 
+mkdir lorem-copy
+cp sed.txt C:\Users\matia\ironhack\1.1-lab_bash\lorem\lorem-copy
+
+* Muestra el contenido del archivo `sed.txt` dentro de la carpeta lorem. 
+cd 1.1-lab_bash
+cd lorem
 cat sed.txt
+
+* Muestra el contenido de los archivos `at.txt` y `lorem.txt` dentro de la carpeta lorem. 
+cd 1.1-lab_bash
+cd lorem
 cat at.txt
 cat lorem.txt
+
+* Visualiza las primeras 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy 
+Get-Content .\lorem-copy\sed.txt -TotalCount 3
+
+* Añade `Homo homini lupus.` al final de archivo `sed.txt` dentro de la carpeta lorem-copy. 
+echo Homo homini lupus. >> sed.txt
+
+* Visualiza las últimas 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy. Deberías ver ahora `Homo homini lupus.`. 
+Get-Content .\lorem-copy\sed.txt -last 3
+
+* Encuentra al usuario activo en el sistema.
+whoami
+
+* Encuentra dónde estás en tu sistema de ficheros.
+get-location
+
+* Lista los archivos que terminan por `.txt` en la carpeta lorem.
+ls *.txt
+
+* Cuenta el número de líneas que tiene el archivo `sed.txt` dentro de la carpeta lorem. 
+get-content "C:\Users\matia\ironhack\1.1-lab_bash\lorem\sed.txt"| Measure-Object –Line
+
+* Cuenta el número de **archivos** que empiezan por `lorem` que están en este directorio y en directorios internos.
+cd lorem
+ls lorem*
+
+* Cuenta el número de apariciones del string `et` en `at.txt` dentro de la carpeta lorem. 
+ls
+cd 1.1-lab_bash
+(Get-Content "lorem\at.txt") -match "et" | Measure-Object | Select-Object -ExpandProperty Count
