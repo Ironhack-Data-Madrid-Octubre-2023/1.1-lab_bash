@@ -1,37 +1,11 @@
-# Bash Lab
 
-## CAMBIOS MARINA
+echo "hello word"
 
+mkdir "new_dir"
 
-## Intro
+cd new_dir
+rm -r new_dir
 
-Vamos a practicar con `bash`, un lenguaje de programación que se ejecuta en la línea de comandos!
-
-
-## Entregable
-
-Abre el  jupyter notebook en esta carpeta llamado solutions.ipynb y ve escribiendo en él los títulos de los ejercicios en una celda, y en otra el comando que has utilizado para solucionar los ejercicios. 
-
-## Setup
-
-1. Ubícate en la carpeta en la que ejecutando en el terminal. Al ejecutar `ls` 
-```console
-$ ls
-```
-
-2. Deberías ver: 
-```console
-README.md lorem solutions.ipynb
-```
-3. Intenta hacer todos los ejercicios sin cambiar de directorio. 
-
-## Ejercicios
-
-* Imprime en consola `Hello World`.
-
-* Crea un directorio nuevo llamado `new_dir`.
-
-* Elimina ese directorio.
 
 * Copia el archivo `sed.txt` dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero. 
 
