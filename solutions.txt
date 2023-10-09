@@ -25,4 +25,6 @@ cat lorem.txt
 
 13. Get-Content C:\Users\jacom\ironhack\1.1-lab_bash\lorem\sed.txt | Measure-Object -Character -Line -Word
 
-14. 
+14. (ls -filter "lorem*" -Recurse).count
+
+15. (findstr et *.* at.txt).count
