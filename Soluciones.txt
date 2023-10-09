@@ -5,6 +5,28 @@
 3) rmdir new_dir
 
 4) mkdir lorem-copy
-Cp sed.txt lorem-copy
+Cp lorem/sed.txt lorem-copy
 
-5)
+5) cd lorem
+Cat sed.txt
+
+6) cat at.txt
+cat lore.txt
+
+7) cd ..
+cd lorem-copy
+head -n 3 sed.txt
+
+8) cd lorem-copy
+Echo Homo homini lupus >> sed.txt
+
+9) tail -n 3 sed.txt
+
+10) whoami
+
+11) pwd
+
+12)
+
+13) cd lorem
+wc sed.txt
