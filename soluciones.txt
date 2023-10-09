@@ -1,0 +1,26 @@
+SOLUCIONES
+1) echo Hello world
+2) mkdir new_dir
+3) rm new_dir
+4) cd C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem
+5) 
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> cd ..
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash> mkdir lorem_copy
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash> cd lorem_copy
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem_copy> cp C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem\sed.txt
+
+6) 
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem_copy> cd ..
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash> cd lorem
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> cat sed.txt
+
+7)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> cat at.txt, lorem.txt
+
+8)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem_copy> Get-Content -Path .\sed.txt -TotalCount 3
+
+9)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem_copy> Add-Content -Path .\sed.txt -Exclude  help* -Value 'Homo homini lupus'
+
+10) 
