@@ -25,25 +25,33 @@ README.md lorem solutions.ipynb
 ## Ejercicios
 
 * Imprime en consola `Hello World`.
-
-
-
+echo 'Hello World'
 
 * Crea un directorio nuevo llamado `new_dir`.
+mkdir 'new_dir'
 
 * Elimina ese directorio.
+rm -r new_dir
 
 * Copia el archivo `sed.txt` dentro de la carpeta lorem a la carpeta lorem-copy. TIP: Puede ser necesario crear la carpeta lorem-copy primero. 
 
+cp sed.txt
+
 * Muestra el contenido del archivo `sed.txt` dentro de la carpeta lorem. 
+cat sed.txt
 
 * Muestra el contenido de los archivos `at.txt` y `lorem.txt` dentro de la carpeta lorem. 
+cat at.txt
+cat lorem.txt
 
 * Visualiza las primeras 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy 
+wc -3
 
 * Añade `Homo homini lupus.` al final de archivo `sed.txt` dentro de la carpeta lorem-copy. 
+echo `Homo homini lupus.` >> sed.txt
 
 * Visualiza las últimas 3 líneas del archivo `sed.txt` dentro de la carpeta lorem-copy. Deberías ver ahora `Homo homini lupus.`. 
+
 
 * Encuentra al usuario activo en el sistema.
 
