@@ -26,6 +26,10 @@ README.md lorem solutions.ipynb
 
 * Imprime en consola `Hello World`.
 
+
+
+
+
 * Crea un directorio nuevo llamado `new_dir`.
 
 * Elimina ese directorio.
