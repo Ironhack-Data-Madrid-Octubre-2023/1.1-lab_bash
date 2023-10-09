@@ -1,0 +1,42 @@
+1) echo hello world
+
+2) mkdir new_dir
+
+3) rmdir new_dir 
+
+4) mkdir lorem-copy
+copy lorem\sed.txt lorem-copy\
+
+5) cd lorem
+type sed.txt
+
+6) cd lorem 
+type at.txt
+type lorem.txt
+
+7)cd lorem-copy
+type sed.txt | select-object -first 3
+
+8)cd lorem-copy
+echo >> sed.txt Homo homini lupus. 
+
+9) cd lorem-copy
+type sed.txt | select-object -last 3
+
+10) $env:USERNAME
+
+11) pwd
+Get-Location
+
+12) ls "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\*.txt"
+Get-ChildItem -Path "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\*.txt"
+
+13) cd lorem 
+Get-Content "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\sed.txt" | Measure-Object -Line
+
+14) cd lorem 
+(Get-ChildItem -File -Recurse -Filter "lorem*").Count
+
+15) cd lorem 
+(Get-Content "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\at.txt" | Select-String -Pattern "et" -AllMatches).Matches.Count
+
