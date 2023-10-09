@@ -31,6 +31,6 @@ Echo Homo homini lupus >> sed.txt
 13) cd lorem
 wc sed.txt
 
-14) 
+14) find . -type f -name "lorem*" | wc -l
 
 15) grep -o 'et' lorem/at.txt | wc -l
