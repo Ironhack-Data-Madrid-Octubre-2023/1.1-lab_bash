@@ -1,1 +1,5 @@
-1)
+1) echo hello
+
+2) mkdir new_dir
+
+3) 
