@@ -1,11 +1,8 @@
-# Bash Lab
+mv# Bash Lab
 
 ## Intro
 
 Vamos a practicar con `bash`, un lenguaje de programación que se ejecuta en la línea de comandos!
-
-
-
 
 Hola
 
@@ -29,6 +26,10 @@ README.md lorem solutions.ipynb
 3. Intenta hacer todos los ejercicios sin cambiar de directorio. 
 
 ## Ejercicios
+
+
+
+
 
 * Imprime en consola `Hello World`.
 

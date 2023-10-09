@@ -1,0 +1,8 @@
+1. echo Hello World
+2. mkdir new_dir
+3. rm -r new_dir
+4. cp lorem/sed.txt lorem_copy/
+5. 	Cd lorem
+	cat sed.txt
+6. cat at.txt lorem.txt
+7. 
