@@ -1,4 +1,4 @@
-# Bash Lab
+mk# Bash Lab
 
 ## Intro
 
@@ -44,7 +44,7 @@ README.md lorem solutions.ipynb
 
 * Encuentra al usuario activo en el sistema.
 
-* Encuentra dónde estás en tu sistema de ficheros.
+* Encuentra dónde estás en tu sistema de ficheros. 
 
 * Lista los archivos que terminan por `.txt` en la carpeta lorem.
 
