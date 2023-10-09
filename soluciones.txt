@@ -24,3 +24,19 @@ SOLUCIONES
 (clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem_copy> Add-Content -Path .\sed.txt -Exclude  help* -Value 'Homo homini lupus'
 
 10) 
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash> whoami  
+
+11)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash> dir
+
+12)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> Get-ChildItem  -Filter *.txt 
+
+13)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> Get-Content sed.txt  | Measure-Object -Line
+
+14)
+(clase) PS C:\Users\Lidiavf1912\Documents\Bootcamp\1.1-lab_bash\lorem> (Get-ChildItem -Recurse -File -Filter "lorem*").Count 
+
+
+
