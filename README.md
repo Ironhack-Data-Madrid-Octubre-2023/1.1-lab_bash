@@ -24,7 +24,9 @@ README.md lorem solutions.ipynb
 
 ## Ejercicios
 
+
 * Imprime en consola `Hello World`.
+
 
 * Crea un directorio nuevo llamado `new_dir`.
 
