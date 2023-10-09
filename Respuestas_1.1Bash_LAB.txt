@@ -1,0 +1,17 @@
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  echo Hello World
+Hello World
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  mkdir new_dir
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
+README.md                  lorem
+Respuestas_1.1Bash_LAB.txt new_dir
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  rm
+new_dir
+rm: new_dir: is a directory
+(clase)  ✘ mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
+README.md                  lorem
+Respuestas_1.1Bash_LAB.txt new_dir
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  rm
+-r new_dir
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
+README.md                  Respuestas_1.1Bash_LAB.txt lorem
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main 
