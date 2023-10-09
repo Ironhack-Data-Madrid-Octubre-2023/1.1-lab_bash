@@ -1,1 +1,25 @@
+1. echo hello world
+
+2. mkdir new_dir
+
+3. rm -r new_dir
+
+4. cd C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem 
+   #tengo que estar en la carpeta donde se ubica el archivo para copiarlo
+   mkdir lorem-copy
+   cp sed.txt C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem-copy
+
+5. cat sed.txt
+
+6. cat at.txt
+   cat lorem.txt
+
+7. cd C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem-copy
+   Get-Content -Path sed.txt -TotalCount 3
+
+8. Add-Content -Path sed.txt -Value "Homo homini lupus"
+
+9. whoami
+
+10. 
 
