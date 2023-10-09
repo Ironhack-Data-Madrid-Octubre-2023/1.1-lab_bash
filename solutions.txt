@@ -11,4 +11,18 @@
 6. cat at.txt
 cat lorem.txt
 
-7. 
+7. type sed.txt -head 3
+
+8. echo "\n Homo homini lupus." >> sed.txt
+
+9. type sed.txt -tail 3
+
+10. whoami
+
+11. pwd
+
+12. ls "*.txt"
+
+13. Get-Content C:\Users\jacom\ironhack\1.1-lab_bash\lorem\sed.txt | Measure-Object -Character -Line -Word
+
+14. 
