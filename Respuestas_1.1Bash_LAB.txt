@@ -120,3 +120,16 @@ wc -l sed.txt
 
 (clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash/lorem   main ±  grep -o et at.txt | wc -l
       10
+
+16). Ficheros Bash
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  touch list_files.sh
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  ls
+README.md                  list_files.sh
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  echo ls >> list_files.sh
+
+(clase)  mbp@MBPs-MacBook-Pro  ~/Documents/IRONHACK/04.Classes/1.1-lab_bash   main  bash list_files.sh
+README.md			list_files.sh
+Respuestas_1.1Bash_LAB.txt	lorem
