@@ -21,5 +21,9 @@
 
 9. whoami
 
-10. 
+10. pwd
 
+11. cd C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem
+    Get-ChildItem -Path . -Filter *.txt
+
+12.  (Get-Content -Path "C:\Users\ccior\IRONHACK\1.1-lab_bash\lorem\lorem.txt" | Measure-Object -Line).Lines
