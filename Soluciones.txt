@@ -1,5 +1,10 @@
-1) echo hello
+1) echo hello word
 
 2) mkdir new_dir
 
-3) 
+3) rmdir new_dir
+
+4) mkdir lorem-copy
+Cp sed.txt lorem-copy
+
+5)
