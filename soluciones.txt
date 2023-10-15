@@ -32,11 +32,11 @@ Get-Location
 Get-ChildItem -Path "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\*.txt"
 
 13) cd lorem 
-Get-Content "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\sed.txt" | Measure-Object -Line
+Get-Content "C:\Users\blanx\ironhack\labs_clase\semana_1\dia_1\1.1-lab_bash\lorem\sed.txt" | Measure-Object -Line
 
 14) cd lorem 
 (Get-ChildItem -File -Recurse -Filter "lorem*").Count
 
 15) cd lorem 
-(Get-Content "C:\Users\blanx\ironhack\labs_clase\1.1-lab_bash\lorem\at.txt" | Select-String -Pattern "et" -AllMatches).Matches.Count
+(Get-Content "C:\Users\blanx\ironhack\labs_clase\semana_1\dia_1\1.1-lab_bash\lorem\at.txt" | Select-String -Pattern "et" -AllMatches).Matches.Count
 
