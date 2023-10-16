@@ -1,0 +1,39 @@
+SOLUCIONES
+1) echo Hello world
+2) mkdir new_dir
+3) rm new_dir
+4) cd cd C:\ironhack\labs\lab1\1.1-lab_bash\lorem>
+5) 
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem> cd ..
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash> mkdir lorem_copy
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash> cd lorem_copy
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem_copy> cp  C:\ironhack\labs\lab1\1.1-lab_bash\lorem\sed.txt
+
+6) 
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem_copy> cd ..
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash> cd lorem
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem> cat sed.txt
+
+7)
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem> cat at.txt, lorem.txt
+
+8)
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem_copy> Get-Content -Path .\sed.txt -TotalCount 3
+
+9)
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash\lorem_copy> Add-Content -Path .\sed.txt -Exclude  help* -Value 'hghfhfhf'
+
+10) 
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash> whoami  
+
+11)
+(clase) C:\ironhack\labs\lab1\1.1-lab_bash> dir
+
+12)
+(clase) PS C:\ironhack\labs\lab1\1.1-lab_bash\lorem> Get-ChildItem  -Filter *.txt
+
+13)
+(clase)  PS C:\ironhack\labs\lab1\1.1-lab_bash\lorem> Get-Content sed.txt  | Measure-Object -Line
+
+14)
+(clase) PS C:\ironhack\labs\lab1\1.1-lab_bash\lorem> (Get-ChildItem -Recurse -File -Filter "lorem*").Count

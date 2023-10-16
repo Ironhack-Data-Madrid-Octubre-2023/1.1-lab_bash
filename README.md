@@ -56,6 +56,7 @@ README.md lorem solutions.ipynb
 
 ## Ficheros bash
 
+
 Cualquier comando o comandos de bash se pueden almacenar en un fichero y ejecutar cuando queramos. 
 Obviamente puedes utilizar tu editor preferido. Creamos el fichero: 
 ```
@@ -63,17 +64,19 @@ $ touch list_files.sh
 ```
 
 E incluimos el contenido que queramos. En este caso listar ficheros:
-```bash
+bash
 #!/bin/bash
 ls
-```
+
+
+
 
 Ejecutamos el script:
-```
+
 $ bash list_files.sh
-```
+
 
 Y veremos por consola el siguiente output. 
-```console
+console
 README.md lorem solutions.ipynb
-```
+
